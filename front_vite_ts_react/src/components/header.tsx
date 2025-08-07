@@ -44,17 +44,17 @@ export const Header = ({ setCurrentPage }: LandingPageProps) => {
                         <DialogTitle>Full-Stack Laughs</DialogTitle>
                         <DialogDescription>
                             Welcome to Full-Stack laughs.
-                            <br/>
-                            To get going, follow the instructions below. 
-                            <br/>
+                            <br />
+                            To get going, follow the instructions below.
+                            <br />
                             For a more detailed description about the app, please refer to the README.md file.
                         </DialogDescription>
                     </DialogHeader>
                     <div>🚀 Ensure the server is listening on port 3000</div>
                     <div>🌱 Use the front end to seed the database</div>
                     <div>🤣 Click 'Make me laugh" to see the jokes</div>
-                    <DialogClose className=' w-fit'>
-                        <button onClick={() => { setCurrentPage('Landing') }} className='border-1 rounded-md bg-black text-white p-2 hover:bg-trim hover:text-black duration-150 cursor-pointer'>Take me home</button>
+                    <DialogClose onClick={() => { setCurrentPage('Landing') }} className='border-1 rounded-md bg-black text-white p-2 hover:bg-trim hover:text-black duration-150 cursor-pointer'>
+                        Take me home
                     </DialogClose>
                 </DialogContent>
             </Dialog>
