@@ -14,7 +14,7 @@
  The client can run on any port as CORS is configured to allow from any origin.
 
 ## Step 3 -
-### Use the client to seed teh database.
+### Use the client to seed the database.
 For user experience, the database is created and seeded in the server via an API POST request which can be made on the landing page of the client.
 
 ---
