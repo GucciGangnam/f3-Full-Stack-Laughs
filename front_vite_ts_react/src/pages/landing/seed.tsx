@@ -51,7 +51,6 @@ export const SeedPage = ({ setCurrentLandingScreen }: SeedPageProps) => {
 
     // Handlers
     const seedDatabase = async () => {
-        console.log('button clicked')
         try {
             setLoading(true);
             setError(null);
@@ -68,8 +67,6 @@ export const SeedPage = ({ setCurrentLandingScreen }: SeedPageProps) => {
             }
             // Respons ok
             setSuccess(true);
-            const data = await response.json();
-            console.log(data);
             // Run fade out 
             fadeOut();
 
